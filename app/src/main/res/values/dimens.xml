@@ -1,0 +1,12 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="margin_introduction">15dp</dimen>
+    <dimen name="margin_drawer_item">8dp</dimen>
+    <dimen name="conv_btn_margin">14dp</dimen>
+    <dimen name="conv_tv_margin">12dp</dimen>
+    <dimen name="margin_choose_file">15dp</dimen>
+
+    <dimen name="introduction_size">18sp</dimen>
+</resources>

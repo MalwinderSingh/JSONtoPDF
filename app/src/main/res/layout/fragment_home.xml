@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ms.android.jsontopdf.ui.fragments.HomeFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/dark_blue"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/margin_introduction"
+        android:layout_marginBottom="@dimen/margin_introduction"
+        android:textSize="@dimen/introduction_size"
+        android:text="@string/introduction"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnFromURL"
+        android:text="@string/from_url"
+        android:textColor="@android:color/white"
+        android:background="@drawable/curved_orange_rect"
+        android:layout_margin="@dimen/conv_btn_margin"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnFromFile"
+        android:text="@string/from_file"
+        android:textColor="@android:color/white"
+        android:background="@drawable/curved_orange_rect"
+        android:layout_margin="@dimen/conv_btn_margin"/>
+</LinearLayout>

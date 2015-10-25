@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/dark_blue"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/margin_introduction"
+        android:layout_marginBottom="@dimen/margin_introduction"
+        android:textSize="@dimen/introduction_size"
+        android:text="@string/introduction_url"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/curved_white_rect"
+        android:gravity="center_horizontal">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ibCancel"
+            android:background="@null"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_close" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/etURL"
+            android:maxEms="12"
+            android:singleLine="true"
+            android:layout_margin="@dimen/margin_drawer_item"
+            android:hint="@string/hint_url"
+            android:inputType="textUri"
+            android:imeOptions="actionDone" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ibURLGo"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:src="@drawable/ic_arrow_forward" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">JSON To PDF</string>
+    <string name="hint_url">www.example.com/page.php</string>
+    <string name="introduction_url">Type in a link to webpage having JSON</string>
+    <string name="introduction_file">Select <b>.json</b> file</string>
+    <string name="from_url">From URL</string>
+    <string name="from_file">From JSON File</string>
+    <string name="convert_to_pdf">Convert to PDF</string>
+    <string name="choose_file">Choose file</string>
+    <string name="introduction">Type in a link to webpage having JSON or choose a JSON file</string>
+</resources>
